@@ -1,0 +1,157 @@
+.red-box{
+  background-color: red;
+  border: none;
+  width:100px;
+  height:100px;
+}
+.green-circle{
+  margin-top: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height:100px;
+    }
+.survey-box{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 300px;
+      border: 1px solid gray;
+}
+p{
+  font-family: Cormorant;
+}
+.question{
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.yes, .no{
+  margin-bottom: 15px;
+  border: 1px solid rgb(190, 188, 188);
+  border-radius: 5px;
+    }
+.yes{
+  margin-left: 15px;
+}
+.install-box{
+  width: 270px;
+  background-color: rgb(37, 37, 37);
+}
+.install-title{
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  font-weight: bold;
+
+}
+.install-description{
+  font-size: 12px;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.tweet-box{
+  width: 300px;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.30);
+  margin-bottom: 100px;
+}
+.tweet-thumb{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+  
+   
+}
+.tweet-search{
+  font-size: 15px;
+  border: none;
+    width: 180px;
+}
+.tweet-button{
+  color: white;
+  background-color: rgb(0, 140, 255);
+  border:none;
+  font-size: 13px;
+  border-radius: 15px;
+   padding: 5px 15px;
+  }
+  .dog-picture{
+    width: 200px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.50);
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right:10px;
+  }
+  .dog-thumb{
+    width: 100%;
+  }
+  .dog-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  .dog-friends{
+    color: gray;
+    font-size: 17px;
+    padding:5px 10px;
+    margin: 0;
+  }
+  .dog-button{
+    font-size: 17px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .dog-picture{
+    margin-bottom: 100px;
+  }
+  .google{
+    width: 500px;
+    
+    padding: 30px 30px;
+    margin-bottom: 100px;
+    text-align: center;
+      }
+  .google-logo{
+    width: 300px;
+         }
+  .search-box{
+    display:block;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.50);
+    margin-bottom: 30px;
+  }
+  .search-button, .lucky-button{
+    font-size: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(224, 217, 217);
+  }
+  .search-button{
+    margin-right: 10px;
+  }

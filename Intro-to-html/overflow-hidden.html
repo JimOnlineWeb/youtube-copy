@@ -1,0 +1,32 @@
+<style>
+ .overflow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .test1{
+    width: 100px;
+    background-color: gray;
+    font-size: 15px;
+    color: blue;
+    height: 200px;
+    vertical-align: middle;
+  }
+  .test2{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: green;
+    font-size: 40px;
+  }
+</style>
+<div class="overflow">
+  <div class="test1"></div>
+  <div class="test2"><p>test2</p></div>
+</div>

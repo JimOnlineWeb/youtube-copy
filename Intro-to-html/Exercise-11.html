@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 11</title>
+    <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 200px 75px;
+    }
+    .grid2{
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+    .grid3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+    </style>
+  </head>
+  
+  <body>
+    <div class="grid">
+      <div>
+        <p style="background-color: lightblue;">200px</p>
+      </div>
+      <div>
+        <p style="background-color: lightpink;">75px</p>
+      </div>
+    </div>
+    <div class="grid2">
+      <div>
+        <p style="background-color: lightblue;">50px</p>
+      </div>
+      <div>
+        <p style="background-color: lightpink;">1fr</p>
+      </div>
+      <div>
+        <p style="background-color: lightgreen;">75px</p>
+      </div>
+    </div>
+   
+    <div class="grid3">
+      <div style="background-color: lightblue;">
+        Div 1
+      </div>
+      <div style="background-color: lightblue;">
+        Div 2
+      </div>
+      <div style="background-color: lightblue;">
+        Div 3
+      </div>
+      <div style="background-color: lightblue;">
+        Div 4
+      </div>
+      <div style="background-color: lightblue;">
+        Div 5
+      </div>
+      <div style="background-color: lightblue;">
+        Div 6
+      </div>
+      <div style="background-color: lightblue;">
+        Div 7
+      </div>
+      <div style="background-color: lightblue;">
+        Div 8
+      </div>
+    </div>
+  </body>
+</html>

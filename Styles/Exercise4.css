@@ -1,0 +1,93 @@
+button{
+  font-family: Montserrat;
+}
+.back{
+  padding: 8px 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  }
+.next-but{
+  padding: 8px 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.search-result{
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sstretch{
+  margin-left: 10px;
+  padding: 8px 10px;
+  transition: padding 0.50s;
+  color: white;
+  background-color: green;
+  border: none;
+  vertical-align: top;
+  font-weight: bold;
+}
+.sstretch:hover{
+  padding: 18px 30px;
+}
+.shadow{
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: green;
+  padding: 8px 10px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0, 0.50);
+  vertical-align: top;
+  cursor: pointer;
+    }
+.shadow:active{
+  margin-top:22px;
+  margin-left:12px;
+  box-shadow: 0px 0px 0px;
+}
+.one {
+  Margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  Padding: 10px 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  transition: padding 0.20s, margin 0.20s;
+        }
+.one:hover{
+  padding: 10px 25px;  
+  margin-left: 0px;
+  margin-right:0px;
+}
+.two {
+  Margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  Padding: 10px 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  transition: padding 0.20s, margin 0.20s;
+}
+.two:hover{
+  padding: 10px 25px;  
+  margin-left: 0px;
+  margin-right:0px;
+}
+.three{
+  Margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  Padding: 10px 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  transition: padding 0.20s, margin 0.20s;
+}
+.three:hover{
+  padding: 10px 25px;  
+  margin-left: 0px;
+  margin-right:0px;
+}
